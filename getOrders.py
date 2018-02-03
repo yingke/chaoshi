@@ -7,14 +7,14 @@ import json
 import pymongo
 
 headers = {
-    'Appkey': '850226',
+    'Appkey': '',
     'Appversion': '3.4.02',
     'Os': 'android',
     'Osversion': '7.1.1',
     'servername': 'online',
-    'Unique': '9671b9de-0999-4262-8073-167b4e8e6a6f',
-    'Userid': '21623624',
-    'Usersession': 'c4b00d873b73774d8e8503d480c5036b'
+    'Unique': '',
+    'Userid': '',
+    'Usersession': ''
 }
 
 
@@ -58,14 +58,14 @@ def getorders():
 def getCustDetail(time,transactionNo):
 
     postheaders = {
-        'Appkey': '850226',
+        'Appkey': '',
         'Appversion': '3.4.02',
         'Os': 'android',
         'Osversion': '7.1.1',
         'servername': 'online',
-        'Unique': '9671b9de-0999-4262-8073-167b4e8e6a6f',
-        'Userid': '21623624',
-        'Usersession': 'c4b00d873b73774d8e8503d480c5036b',
+        'Unique': '',
+        'Userid': '',
+        'Usersession': '',
         'Content - Length': '59',
          'Content-Type': 'application/x-www-form-urlencoded',
         'Host': 'www.subuy.com',

@@ -34,7 +34,6 @@ def getorders():
 
         orders = requests.get(ordersurl, headers=headers)
 
-
         i += 1
         text = json.loads(orders.text)
         ordersjson = text['dataList']
@@ -49,11 +48,7 @@ def getorders():
             alloders= dict(jsonor, **detail)
             post.insert(alloders)
 
-
-
             time.sleep(5)
-
-
 
 def getCustDetail(time,transactionNo):
 
@@ -78,12 +73,6 @@ def getCustDetail(time,transactionNo):
     time.sleep(5)
 
     return json.loads(detali.text)
-
-
-
-
-
-
 
 if __name__ == '__main__':
 
